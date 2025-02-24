@@ -136,3 +136,35 @@ body {
     font-size: 11px;
   }
 }
+
+/*как бы на айфон*/
+@media (240px <= width <= 490px) {
+  body {
+    height: 112.5px;
+  }
+  /* Main */
+
+  .main_img {
+    max-width: 100%;
+  }
+
+  .main__adress {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main__adress_sity {
+    font-size: 1.7em;
+  }
+
+  .main__adress_tel {
+    font-size: 1.9em;
+  }
+
+  /* Footer */
+  .footer__title {
+    font-size: 11px;
+  }
+}
