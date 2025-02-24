@@ -112,6 +112,10 @@ body {
     padding-bottom: 5px;
   }
 
+  .main_img {
+    max-width: 100%;
+  }
+
   .main__adress {
     width: 100%;
     display: flex;
@@ -120,11 +124,11 @@ body {
   }
 
   .main__adress_sity {
-    font-size: 0.5em;
+    font-size: 1.1em;
   }
 
   .main__adress_tel {
-    font-size: 0.7em;
+    font-size: 1.3em;
   }
 
   /* Footer */
