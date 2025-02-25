@@ -17,6 +17,49 @@ body {
   background-color: #020202;
 }
 
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__title {
+  color: aliceblue;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  padding: 10px 0;
+  letter-spacing: 2px;
+}
+
+.ramka {
+  position: relative;
+  z-index: 0;
+  width: 300px;
+  height: 3px;
+  overflow: hidden;
+}
+.ramka::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+
+  width: 200%;
+  height: 200%;
+  background-color: #f2fc70;
+  background-repeat: no-repeat;
+  background-size: 50% 50%, 50% 50%;
+  background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+
+  animation: anim-ramka-5 4s linear infinite;
+}
+
+@keyframes anim-ramka-5 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
 /* Main */
 .main {
   display: flex;
@@ -28,7 +71,17 @@ body {
 .main_img {
   max-width: 80%;
   margin: 0 auto;
-  margin-top: 3rem;
+}
+
+.main__text {
+  text-align: center;
+}
+
+.main__text_h2,
+.main__text_p {
+  color: aliceblue;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
 }
 
 .main__adress {
@@ -74,6 +127,14 @@ body {
 }
 
 @media (690px <= width <= 844px) {
+  .main_img {
+    width: 100%;
+  }
+
+  .main__text_h2 {
+    font-size: 1.3em;
+  }
+
   .main__adress_sity {
     font-size: 0.7em;
   }
@@ -87,6 +148,14 @@ body {
   /* Main */
   .main {
     padding-bottom: 15px;
+  }
+
+  .main_img {
+    width: 100%;
+  }
+
+  .main__text_h2 {
+    font-size: 1em;
   }
 
   .main__adress {
@@ -108,6 +177,10 @@ body {
 }
 
 @media (290px <= width <= 490px) {
+  /* Header */
+  .header__title {
+    font-size: 1.5em;
+  }
   /* Main */
   .main {
     padding-bottom: 5px;
@@ -115,6 +188,10 @@ body {
 
   .main_img {
     max-width: 100%;
+  }
+
+  .main__text_h2 {
+    font-size: 1em;
   }
 
   .main__adress {
@@ -125,15 +202,52 @@ body {
   }
 
   .main__adress_sity {
-    font-size: 1.5em;
+    font-size: 1.1em;
   }
 
   .main__adress_tel {
-    font-size: 1.7em;
+    font-size: 1.3em;
   }
 
   /* Footer */
   .footer__title {
     font-size: 11px;
+  }
+}
+
+@media (width <= 290px) {
+  /* Header */
+  .header__title {
+    font-size: 1em;
+  }
+
+  /* Main */
+  .main_img {
+    max-width: 100%;
+  }
+
+  .main__text_h2,
+  .main__text_p {
+    font-size: 0.6em;
+  }
+
+  .main__adress {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main__adress_sity {
+    font-size: 0.7em;
+  }
+
+  .main__adress_tel {
+    font-size: 0.9em;
+  }
+
+  /* Footer */
+  .footer__title {
+    font-size: 9px;
+    text-align: center;
   }
 }
