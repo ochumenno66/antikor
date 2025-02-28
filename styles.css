@@ -24,11 +24,22 @@ body {
   align-items: center;
 }
 .header__title {
-  color: aliceblue;
   font-family: "Old Standard TT", serif;
   font-weight: 400;
   padding: 10px 0;
   letter-spacing: 2px;
+}
+
+.header__antikor {
+  color: rgba(248, 5, 5, 0.89);
+  font-weight: bold;
+}
+
+.header__country {
+  font-weight: bold;
+  background: linear-gradient(to bottom, white, blue, red);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .ramka {
@@ -43,14 +54,12 @@ body {
   position: absolute;
   z-index: -2;
   left: -50%;
-
   width: 200%;
   height: 200%;
-  background-color: #f2fc70;
+  background-color: #d3c544;
   background-repeat: no-repeat;
   background-size: 50% 50%, 50% 50%;
   background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-
   animation: anim-ramka-5 4s linear infinite;
 }
 
@@ -127,6 +136,10 @@ body {
 }
 
 @media (690px <= width <= 844px) {
+  body {
+    border: 1px solid red;
+  }
+
   .main_img {
     width: 100%;
   }
@@ -145,6 +158,9 @@ body {
 }
 
 @media (590px <= width <= 690px) {
+  body {
+    border: 1px solid rgb(229, 255, 0);
+  }
   /* Main */
   .main {
     padding-bottom: 15px;
@@ -177,6 +193,9 @@ body {
 }
 
 @media (390px <= width <= 590px) {
+  body {
+    border: 1px solid rgb(0, 255, 76);
+  }
   /* Header */
   .header__title {
     font-size: 1.5em;
