@@ -3,30 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>АнтикорРоссия.рф</title>
   </head>
   <body>
     <header class="header">
-      <h1 class="header__title">
-        <span class="header__antikor">Антикор</span
-        ><span class="header__country">Россия.рф</span>
-      </h1>
-      <p class="ramka"></p>
+      <img class="header__logo" src="./assets/gif/logo.gif" alt="" />
     </header>
     <main class="main">
-      <img class="main_img" src="./assets/img/image (1).png" alt="" />
-      <div class="main__text">
+      <section class="main__title">
+        <div class="main__title_wrapper">
+          <p class="main__p">
+            <span class="sity">Сайт</span><br />
+            <span class="close">закрыт</span><br />
+            <span class="reconstruction">на реконструкцию</span>
+          </p>
+          <img class="main__img" src="./assets/img/title_imgg.png" alt="" />
+        </div>
+        <div class="main__title_img">
+          <img class="img" src="./assets/img/021.png" alt="" />
+        </div>
+      </section>
+
+      <section class="main__text">
         <h2 class="main__text_h2">Все центры работают в штатном режиме</h2>
         <p class="main__text_p">Для записи и консультаций:</p>
-      </div>
-      <div class="main__adress">
+      </section>
+      <section class="main__adress">
         <div class="main__adress_wrapper">
           <p class="main__adress_sity">г.Новосибирск</p>
           <a class="main__adress_tel" href="tel:+7(999)532-0666"
@@ -45,9 +54,10 @@
             >+7(999)216-0666</a
           >
         </div>
-      </div>
+      </section>
     </main>
     <footer class="footer">
+      <img class="img" src="./assets/img/011.png" alt="" />
       <h4 class="footer__title">
         © АнтикорРоссия.рф, 2025 - Все права защищены
       </h4>
