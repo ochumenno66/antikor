@@ -351,17 +351,11 @@ body {
 */
 
 .main__img {
-  /* width: 17%;*/
-  /*max-width: 300px;*/
   width: 15%;
   max-width: none;
-  height: auto;
   position: absolute;
   top: 44%;
   left: 58%;
-  /*top: 47%;
-  left: 59%;
-  transform: translate(-50%, -45%);*/
   transform: translate(-50%, -50%);
   z-index: 1;
   height: auto;
@@ -440,17 +434,22 @@ body {
   font-size: 1em;
 }
 
-/*@media (max-width: 768px) {
+@media (max-width: 850px) {
   .header__logo {
-    width: 60%;
+    width: 45%;
   }
+
+  .main__p {
+    font-size: 4.3vw;
+  }
+
   .main__img {
-    width: 28%;
-    transform: translate(-27%, -43%);
+    width: 21%;
+    transform: translate(-33%, -50%);
   }
 }
 
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
   .header__logo {
     width: 80%;
   }
