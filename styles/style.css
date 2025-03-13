@@ -17,8 +17,11 @@ body {
 }
 
 .header__logo {
-  width: 40%;
-  max-width: 400px;
+  /*width: 40%;
+  max-width: 400px;*/
+  width: 33%;
+  max-width: none;
+  height: auto;
 }
 
 /* MAIN */
@@ -36,13 +39,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 3em;
+  padding-top: 1em;
   position: relative;
 }
 
 .main__p {
   color: #fff;
-  font-size: 2.5em;
+  /* font-size: 2.5em;*/
+  font-size: 3vw;
   text-align: left;
   z-index: 2;
 }
@@ -348,12 +352,18 @@ body {
 */
 
 .main__img {
-  width: 17%;
-  max-width: 300px;
+  /* width: 17%;*/
+  /*max-width: 300px;*/
+  width: 15%;
+  max-width: none;
+  height: auto;
   position: absolute;
-  top: 47%;
+  top: 44%;
+  left: 58%;
+  /*top: 47%;
   left: 59%;
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -45%);*/
+  transform: translate(-50%, -50%);
   z-index: 1;
   height: auto;
 }
@@ -372,11 +382,11 @@ body {
 }
 
 .main__text_h2 {
-  font-size: 2em;
+  font-size: 3vw;
 }
 
 .main__text_p {
-  font-size: 1.2em;
+  font-size: 2vw;
   margin: 10px 0;
 }
 
@@ -392,9 +402,11 @@ body {
   margin: 10px;
   padding: 15px;
   border: 2px solid #1a1a1d;
+  box-shadow: 0 4px 8px rgb(125, 63, 41);
+  /*border: 2px solid #1a1a1d;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
   border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .main__adress_sity {
@@ -424,12 +436,11 @@ body {
 .footer__title {
   color: rgb(253, 252, 252);
   font-size: 1em;
-  font-family: var(--font-family);
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .header__logo {
-    width: 60%; /* Логотип будет занимать 60% на узких экранах */
+    width: 60%;
   }
   .main__img {
     width: 28%;
@@ -437,12 +448,12 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .header__logo {
-    width: 60%; /* Логотип будет занимать 60% на узких экранах */
+    width: 80%;
   }
   .main__img {
     width: 28%;
     transform: translate(-27%, -43%);
   }
-}
+}*/

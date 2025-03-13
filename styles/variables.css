@@ -1,16 +1,9 @@
 :root {
-  --background-color: #f0f8ff;
+  /* Font */
+  --font-family: "Amatic SC", sans-serif;
+
+  /* Color */
   --text-color-primary: ;
   --background-header: #000;
-  --font-family: "Amatic SC", sans-serif;
-}
-
-:root {
-  --temniy-ugolniy: #343a40;
-
-  --cherniy: #2b2b2b;
-
-  --cherniy2: #1e1e1e;
-
-  --temny-grafit: #2c2c2c;
+  --background-color: #f0f8ff;
 }
