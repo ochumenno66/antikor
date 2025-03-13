@@ -449,12 +449,17 @@ body {
   }
 }
 
-/*@media (max-width: 500px) {
+@media (max-width: 622px) {
   .header__logo {
-    width: 80%;
+    width: 60%;
   }
+
+  .main__p {
+    font-size: 5.3vw;
+  }
+
   .main__img {
-    width: 28%;
-    transform: translate(-27%, -43%);
+    width: 27%;
+    transform: translate(-26%, -44%);
   }
-}*/
+}
