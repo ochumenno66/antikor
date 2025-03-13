@@ -378,10 +378,12 @@ body {
 .main__text,
 .main__adress {
   background-color: white;
+  font-family: var(--font-second);
 }
 
 .main__text_h2 {
   font-size: 3vw;
+  font-weight: 100;
 }
 
 .main__text_p {
@@ -409,14 +411,14 @@ body {
 }
 
 .main__adress_sity {
-  font-size: 1.5em;
+  font-size: 1.7vw;
   color: #333;
 }
 
 .main__adress_tel {
-  font-size: 1.2em;
+  font-size: 1.7vw;
   color: rgb(125, 63, 41);
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: none;
 }
 
