@@ -45,7 +45,6 @@ body {
 
 .main__p {
   color: #fff;
-  /* font-size: 2.5em;*/
   font-size: 3vw;
   text-align: left;
   z-index: 2;
@@ -416,7 +415,8 @@ body {
 
 .main__adress_tel {
   font-size: 1.2em;
-  color: #ff6347;
+  color: rgb(125, 63, 41);
+  font-weight: bold;
   text-decoration: none;
 }
 
