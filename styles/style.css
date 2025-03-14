@@ -146,7 +146,7 @@ body {
 }
 
 fieldset {
-  width: 33em;
+  width: 99%;
   border: 2px solid #e1722399;
   border-radius: 20px;
   padding: 17px;
@@ -157,7 +157,8 @@ fieldset {
   color: #4b3d32;
   font-size: 20px;
   font-weight: 500;
-  text-align: left;
+  font-style: italic;
+  text-align: center;
 }
 
 /* FOOTER */
@@ -226,4 +227,36 @@ fieldset {
   }
 }
 
-457
+@media (max-width: 457px) {
+  .header__logo {
+    width: 73%;
+  }
+
+  /*MAIN*/
+  .main__title {
+    height: 242px;
+  }
+
+  .main__p {
+    font-size: 31px;
+  }
+
+  .main__img {
+    width: 157px;
+    transform: translate(-18%, -46%);
+  }
+
+  /*MAIN__TEXT*/
+  .main__text {
+    width: 95%;
+    margin: -33px auto 35px;
+  }
+
+  .main__text_h2 {
+    font-size: 15px;
+  }
+
+  .main__text_p {
+    font-size: 14px;
+  }
+}
