@@ -1,21 +1,15 @@
 :root {
-  /* Font */
+  /* Fonts */
   --font-family: "Montserrat", "Arial", sans-serif;
   --font-second: "Amatic SC", sans-serif;
 
   /* Color */
-  --text-color-primary: ;
   --background-header: #000;
-  --background-color: #f0f8ff;
+  --background-color: #eef0f3;
 
-  --rusty-brown: #7c4d3a;
-  --rust-orange: #c65123;
-  --dark-brown: #4b3d32;
-  --metallic-gray: #a7a8aa;
-  --greenish-gray: #7b8d6c;
-  --light-brown: #d7b29b;
-  --copper: #b8743c;
-  --warm-gray: #b6b1a7;
-  --golden-brown: #b26b39;
-  --charcoal-black: #333333;
+  --rusty-brown: #4b3d32;
+  --rust-orange: #e1722399;
+  --charcoal-black: #282828;
+  --black: #1a1a1d;
+  --white: #fff;
 }

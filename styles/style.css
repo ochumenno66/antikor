@@ -25,7 +25,7 @@ body {
 /* MAIN */
 .main {
   text-align: center;
-  background-color: #eef0f3;
+  background-color: var(--background-color);
 }
 
 /*MAIN__TITLE*/
@@ -46,7 +46,7 @@ body {
 }
 
 .main__p {
-  color: #fff;
+  color: var(--white);
   font-size: 43px;
   text-align: left;
   z-index: 2;
@@ -63,38 +63,26 @@ body {
   height: auto;
 }
 
-/*облачка верхние
-.main__title_img {
-  margin-bottom: -6px;
-}
-.img {
-  width: 100%;
-}*/
-
 /*MAIN__TEXT*/
 .main__text {
-  background: #e1722399;
+  background: var(--rust-orange);
   width: 78%;
   position: relative;
   padding: 10px;
-  /*если убрали облачка*/
   margin: -55px auto 35px;
-  /*margin: -114px auto 35px; если облачка есть*/
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  /*box-shadow: 0 0 20px rgb(125, 63, 41);*/
+  box-shadow: 0 0 20px rgb(125, 63, 41);
 }
 
 .main__text_h2 {
   font-size: 33px;
   font-weight: 400;
-  color: #fff;
+  color: var(--white);
 }
 
 .main__text_p {
-  color: #1a1a1d;
+  color: var(--black);
   font-weight: 500;
-  /*font-size: 1.6vw;*/
   font-size: 23px;
   margin: 10px 0;
 }
@@ -109,8 +97,8 @@ body {
 }
 
 .main__adress_wrapper {
-  color: #fff;
-  border: 2px solid #e1722399;
+  color: var(--white);
+  border: 2px solid var(--rust-orange);
   width: 18em;
   border-radius: 20px;
   padding: 10px;
@@ -119,7 +107,7 @@ body {
 }
 
 .main__adress_sity {
-  background: #e1722399;
+  background: var(--rust-orange);
   font-size: 18px;
   text-align: center;
   padding: 8px 20px;
@@ -131,7 +119,7 @@ body {
 
 .main__adress_tel {
   font-size: 20px;
-  color: #282828;
+  color: var(--charcoal-black);
   font-weight: 500;
   text-decoration: none;
 }
@@ -147,14 +135,14 @@ body {
 
 fieldset {
   width: 99%;
-  border: 2px solid #e1722399;
+  border: 2px solid var(--rust-orange);
   border-radius: 20px;
   padding: 17px;
   margin: 24px auto 0;
 }
 
 .main__tel_h2 {
-  color: #4b3d32;
+  color: var(--rusty-brown);
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
@@ -178,12 +166,13 @@ fieldset {
   font-weight: 100;
 }
 
-/*Adaptiv*/
+/*ADAPTIV*/
 @media (max-width: 870px) {
   .header__logo {
     width: 45%;
   }
 
+  /*MAIN*/
   .main__img {
     width: 206px;
     transform: translate(-18%, -46%);
@@ -208,6 +197,7 @@ fieldset {
     width: 60%;
   }
 
+  /*MAIN*/
   .main__img {
     width: 206px;
     transform: translate(-18%, -46%);
@@ -229,7 +219,7 @@ fieldset {
 
 @media (max-width: 457px) {
   .header__logo {
-    width: 73%;
+    width: 85%;
   }
 
   /*MAIN*/
