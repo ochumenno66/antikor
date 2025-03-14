@@ -134,7 +134,7 @@ body {
 }
 
 fieldset {
-  width: 99%;
+  width: 90%;
   border: 2px solid var(--rust-orange);
   border-radius: 20px;
   padding: 17px;
