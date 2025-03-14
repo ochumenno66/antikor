@@ -1,10 +1,21 @@
 :root {
   /* Font */
   --font-family: "Amatic SC", sans-serif;
-  --font-second: "Ojuju", sans-serif;
+  --font-second: "Montserrat", "Arial", sans-serif;
 
   /* Color */
   --text-color-primary: ;
   --background-header: #000;
   --background-color: #f0f8ff;
+
+  --rusty-brown: #7c4d3a;
+  --rust-orange: #c65123;
+  --dark-brown: #4b3d32;
+  --metallic-gray: #a7a8aa;
+  --greenish-gray: #7b8d6c;
+  --light-brown: #d7b29b;
+  --copper: #b8743c;
+  --warm-gray: #b6b1a7;
+  --golden-brown: #b26b39;
+  --charcoal-black: #333333;
 }
