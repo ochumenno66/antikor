@@ -17,7 +17,8 @@ body {
 }
 
 .header__logo {
-  width: 33%;
+  width: 380px;
+  /*width: 33%;*/
   max-width: none;
   height: auto;
 }
@@ -169,7 +170,7 @@ fieldset {
 /*ADAPTIV*/
 @media (max-width: 870px) {
   .header__logo {
-    width: 51%;
+    /*width: 51%;*/
   }
 
   /*MAIN*/
@@ -194,7 +195,7 @@ fieldset {
 
 @media (max-width: 622px) {
   .header__logo {
-    width: 75%;
+    /*width: 75%;*/
   }
 
   /*MAIN*/
@@ -219,7 +220,8 @@ fieldset {
 
 @media (max-width: 457px) {
   .header__logo {
-    width: 95%;
+    width: 352px;
+    /*width: 95%;*/
   }
 
   /*MAIN*/
